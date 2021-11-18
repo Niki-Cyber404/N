@@ -151,22 +151,13 @@ logo = """
 \033[1;92m█ ✯FACEBOKK : Niki.Cyber404                █  
 \033[1;92m█ ✯WHATSAPP : +8801927294533               █   
 \033[1;92m█ ✯GITHUB   : Niki404-Cyber                █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝
+\033[1;92m╚═════════════════════════════════════════╝
 \033[1;92m   
 \033[1;92m╔══o00════════00o═════════════════════════╗
 \033[1;91m            PUBLIC ID CLONER
 \033[1;92m╚═════════════════════════════════════════╝
-\033[1;96m-----------------------------------------------
-
- 
-
+\033[1;91m-----------------------------------------------
 """
-
- 
-
- 
-
- 
 
 def main():
 
@@ -174,47 +165,26 @@ def main():
 
     os.system("clear")
 
- 
-
     print logo
 
- 
-
     print("")
 
- 
-
-    print("\033[0;96m LETS START ").center(50)
+    print("\033[0;92m LETS START ").center(50)
 
  
-
     print("")
-
- 
 
     print("\033[1;91m[1]\033[1;92mSTART CLONiNG....")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[2]\033[1;92mFOLLOW THE NIKI ")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[0]\033[1;92mEXIT")
 
- 
-
     print("")
-
- 
 
     main_select()
 
@@ -224,7 +194,7 @@ def main_select():
 
  
 
-    Mz = raw_input("\033[1;92m[#] Choose Opition --->\033[1;93m ")
+    Mz = raw_input("\033[1;92m[♫] Choose Opition --->\033[1;93m ")
 
  
 
@@ -292,31 +262,17 @@ def login():
 
     print("")
 
- 
-
     print("\033[1;91m[1]\033[1;92mLogin Using Token")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[2]\033[1;92mHOW TO GET FRE TOKEN.")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[3]\033[1;92mBack")
 
- 
-
     print("")
-
- 
 
     login_select()
 
@@ -348,11 +304,7 @@ def login_select():
 
 	print("[ login with token ]").center(50)
 
- 
-
 	print("")
-
- 
 
         token = raw_input("[!] Token ? \033[0;92m")
 
@@ -391,8 +343,6 @@ def login_select():
  
 
             print("")
-
- 
 
             print("\033[1;92mYour token login successfully").center(50)
 
@@ -608,43 +558,23 @@ def menu():
 
     print("\t\033[1;92mActive Token.... : " +nm)
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[1]\033[1;92mCrack From Friendlist")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[2]\033[1;92mCrack From Public id")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[3]\033[1;92mCrack From Followers id")
 
- 
-
     print("")
-
- 
 
     print("\033[1;91m[0]\033[1;92mEXIT ")
 
- 
-
     print("")
-
- 
 
     menu_select()
 
@@ -690,7 +620,7 @@ def menu_select():
 
  
 
-		z = json.loads(r.text)
+		z = niki.cyber(r.text)
 
  
 
@@ -728,12 +658,9 @@ def menu_select():
 
 		print("")
 
- 
-
 		idt = raw_input("\033[1;97m[♫] ATTACK ID :\033[1;96m ")
 
  
-
 		os.system("clear")
 
  
@@ -750,7 +677,7 @@ def menu_select():
 
  
 
-			q = json.loads(r.text)
+			q = niki.cyber(r.text)
 
  
 
@@ -764,11 +691,7 @@ def menu_select():
 
 		    print("")
 
- 
-
 		    print("\033[1;91your login account has checkpoint").center(50)
-
- 
 
 		    print("")
 
@@ -820,11 +743,7 @@ def menu_select():
 
 		print("")
 
- 
-
 		idt = raw_input("\033[1;92m[♫] ATTACK ID :\033[1;92m ")
-
- 
 
 		os.system("clear")
 
