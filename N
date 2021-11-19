@@ -193,17 +193,17 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;91m[1]\033[1;92mLogin With Facebook
+	print "\033[1;91m[1]\033[1;92mLogin With Facebook"
         time.sleep(0.05)
-        print "\033[1;91m[2]\033[1;92mLogin With Token
+        print "\033[1;91m[2]\033[1;92mLogin With Token"
         time.sleep(0.05)
-        print "\033[1;91m[3]\033[1;92mDownload Token App
+        print "\033[1;91m[3]\033[1;92mDownload Token App"
         time.sleep(0.05)
-        print "\033[1;91m[4]\033[1;92mSubscribe Mr NIKI
+        print "\033[1;91m[4]\033[1;92mSubscribe Mr NIKI"
         time.sleep(0.05)
-	print "\033[1;91m[5]\033[1;92mFollow Niki FB Page
+	print "\033[1;91m[5]\033[1;92mFollow Niki FB Page"
         time.sleep(0.05)
-        print "\033[1;91m[0]\033[1;92mExit
+        print "\033[1;91m[0]\033[1;92mExit"
 	time.sleep(0.05)
 	pilih_login()
 
