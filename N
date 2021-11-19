@@ -198,7 +198,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m[4]\033[1;92mSubscribe Mr NIKI"
         time.sleep(0.05)
-	    print "\033[1;91m[5]\033[1;92mFollow Niki FB Page"
+	print "\033[1;91m[5]\033[1;92mFollow Niki FB Page"
         time.sleep(0.05)
         print "\033[1;91m[5]\033[1;92mFollow Niki FB ID"
         time.sleep(0.05)
