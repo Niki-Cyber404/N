@@ -444,7 +444,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mMr-NIKI\033[1;97m-----------------•"
+		print "\033[1;92m•-----------------\033[1;92mMr-NIKI\033[1;92m-----------------•"
 		print logo
 		idt = raw_input("\033[1;91m[+]\033[1;92mEnter ID\033[1;93m: \033[1;92m")
 		try:
@@ -469,8 +469,8 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;91m[+]\033[1;92mHacking Has Been Started\033[1;92m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\n\033[1;91m[+]\x1b[1;92mStop Process Press CTRL+Z████▒▒▒▒▒▒▒▒..100%""
-	print "\033[1;91m•-----------------\033[1;91m\033[1;91m\033[1;91m-----------------•"
+	print "\n\033[1;91m[+]\x1b[1;92mStop Process Press CTRL+Z████▒▒▒▒▒▒▒▒..100%"
+	print "\033[1;92m•-----------------\033[1;92m\033[1;92m\033[1;92m-----------------•"
  	
 			
 	def main(arg):
