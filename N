@@ -32,11 +32,11 @@ logo = """
 \033[1;92m█ ✯FACEBOKK : Niki.Cyber404                █  
 \033[1;92m█ ✯WHATSAPP : +8801927294533               █   
 \033[1;92m█ ✯GITHUB   : Niki404-Cyber                █  
-\033[1;92m╚═════════════════════════════════════════╝
+\033[1;92m╚══════════════════════════════════════════╝
 \033[1;92m╔══o00════════00o═════════════════════════╗
 \033[1;91m            PUBLIC ID CLONER
 \033[1;92m╚═════════════════════════════════════════╝
-\033[1;91m•───────────────────────────────────────────•
+\033[1;92m•───────────────────────────────────────────•
 """
 mbasic_h={"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
