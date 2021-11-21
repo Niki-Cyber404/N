@@ -31,6 +31,51 @@ def jenw():
 
 logo3 = '\n\x1b[1;91m /$$$$$$$              /$$              \n| $$__  $$            | $$              \n| $$  \\ $$  /$$$$$$  /$$$$$$    /$$$$$$ \n| $$$$$$$  /$$__  $$|_  $$_/   |____  $$\n| $$__  $$| $$$$$$$$  | $$      /$$$$$$$\n| $$  \\ $$| $$_____/  | $$ /$$ /$$__  $$\n| $$$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$$\n|_______/  \\_______/   \\___/   \\_______/\n                                        \n\x1b[0;35m \n      \x1b[0;33\n       \x1b[101m\x1b[37;1mWelcome To Super Fast Cloning Tools\x1b[0m\n       \x1b[101m\x1b[37;1m  GIVEN BY Walid Mahmud\x1b[0m\n\x1b[1;92m-----------------------------------------------\n\x1b[0;31m\xe2\x8b\x9f\x1b[0;32m YOUTUBE   : \x1b[0;31m BG OF HR TC  \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mWHATSAAP   :  \x1b[0;31m+8801811462505 \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mFACEBOOK   :  \x1b[0;31mMD Walid Mahmud(Beta) \n\x1b[1;97m-----------------------------------------------'
 
+def reg():
+    os.system('clear')
+    print logo3
+    print ''
+    print '\x1b[1;31;1mAccess For This Tools Get Approval First '
+    print ''
+    time.sleep(1)
+    try:
+        to = open('/sdcard/DCIM/.beta.txt', 'r').read()
+    except (KeyError, IOError):
+        reg2()
+
+    r = requests.get('https://raw.githubusercontent.com/Niki-Cyber404/N/main/id.txt').text
+    if to in r:
+        jenw()
+    else:
+        os.system('clear')
+        print logo3
+        print '\tApproved Failed'
+        print ' \x1b[1;92mYour Id Is Not Approved '
+        print ' \x1b[1;92mCopy the id and send to Admin'
+        print ' \x1b[1;92mYour id : ' + to
+        raw_input('\x1b[1;93m Press enter to send id')
+        os.system('am start https://wa.me/+8801645137393?text=Please%20Give%20Me%20Api%20Key:%20')
+        reg()
+
+
+def reg2():
+    os.system('clear')
+    print logo3
+    print '\tApproval not detected'
+    print ' \x1b[1;92mCopy and press enter ,'
+    id = uuid.uuid4().hex[:50]
+    print ' Your id: ' + id
+    print ''
+    raw_input(' Press enter to go to Facebook')
+    os.system('am start https://wa.me/+8801645137393?text=Please%20Give%20Me%20Api%20Key:%20')
+    sav = open('/sdcard/DCIM/.niki.txt', 'w')
+    sav.write(id)
+    sav.close()
+    raw_input('\x1b[1;92m Press enter to check Approval ')
+    reg()
+
+
+reg()
 try:
     import requests
 except ImportError:
