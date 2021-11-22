@@ -19,7 +19,7 @@ def jenw():
     os.system('rm -rf .txt')
     os.system('clear')
     print logo2
-    print '\x1b[1;92mSet Phone Number Amount You Want To Clone.\n    Example:10000,20000,30000,50000\n'
+    print '\x1b[1;92mSet Phone Number Amount You Want To Clone.\n    Example:1000,2000,10000,50000\n'
     walid = input('\x1b[1;93mEnter Amount\x1b[1;93m\xe2\x80\xa2\xe2\x9e\xa2 \x1b[1;96m')
     tik()
     for n in range(niki):
