@@ -213,7 +213,7 @@ def act():
         print 48 * '\x1b[1;91m-'
         print
         try:
-            c = raw_input('\xb[1;92>>> ')
+            c = raw_input('>>> ')
             k = '2'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
