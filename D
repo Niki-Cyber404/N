@@ -206,14 +206,14 @@ def act():
         os.system('clear')
         print logo2 + logo1
         print
-        print 42 * '\x1b[1;91m-'
-        print '\x1b[04mTYPE YOUR UID CODE'
-        print '\x1b[1;93m00,01,02,03,04,05'
+        print 48 * '\x1b[1;91m-'
+        print '\x1b[1;96mTYPE YOUR UID CODE'
+        print '\x1b[1;92m00,01,02,03,04,05'
         print '\x1b[1;93m06,07,08,09,10,11'
-        print 42 * '\x1b[1;91m-'
+        print 48 * '\x1b[1;91m-'
         print
         try:
-            c = raw_input('>>> ')
+            c = raw_input('\xb[1;92>>> ')
             k = '2'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
